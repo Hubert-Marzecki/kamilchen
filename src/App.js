@@ -27,7 +27,8 @@ function App() {
     <div className="App">
 
         <section className={"counter"}>
-        <h1 className={"heading"}> YOUR <span className={"cross__word"}>ADVENTURE</span> COCONUT TIME! </h1>
+        <h1 className={"heading"}> YOUR ADVENTURE & COCONUT TIME! </h1>
+            {/*<span className={"cross__word"}>ADVENTURE</span>*/}
       <Countdown
           date={comeBack}
           renderer={renderer}
