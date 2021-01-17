@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa0d01ac-b03a-42d2-a67d-7c6f11ed0114" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/dateBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/dateBox.css" afterDir="false" />
-    </list>
+    <list default="true" id="aa0d01ac-b03a-42d2-a67d-7c6f11ed0114" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +28,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src" />
       <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src\assets" />
       <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src\styles" />
     </key>
@@ -48,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610916165803</updated>
-      <workItem from="1610916177528" duration="4417000" />
+      <workItem from="1610916177528" duration="4779000" />
     </task>
     <servers />
   </component>
