@@ -11,17 +11,18 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 function App() {
 useEffect(() => {
-    AOS.init();
+    AOS.init({once: true});
 
 },[])
-    const [song, setSong] = useState([]);
+    const [song, setSong] = useState(["1", "2", "3", "4"]);
     const [img, setImg] = useState([])
     const [isOpen, setIsOpen] =useState(false);
-
+    const [date,setDate] = useState("")
 
     var comeBack = new Date(2021,3,18);
     const Completionist = () => <span>You are good to go!</span>;
     const renderer = ({days,hours, minutes, seconds, completed }) => {
+        setDate(days)
         return  (
             <div className="count__boxes">
                 <DateBox num={days} info={"days"} deley={"0"}/>
@@ -29,8 +30,11 @@ useEffect(() => {
                 <DateBox num={minutes}  info={"min"} deley={"200"}/>
                 <DateBox num={seconds}  info={"sec"} deley={"400"}/>
             </div>
-
         )
+    }
+
+    function changeSong() {
+
     }
 
     function displayMeme() {
