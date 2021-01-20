@@ -1,12 +1,15 @@
 import './App.css';
 import Countdown from 'react-countdown';
 import DateBox from "./DateBox";
-
-
-
+import {useState} from 'react';
+import imgOne from "./assets/1.jpg";
+import musicIcon from './assets/karaoke.png';
 function App() {
-    var comeBack = new Date(2021,3,18);
 
+    const [song, setSong] = useState([]);
+    const [img, setImg] = useState([])
+    const [isOpen, setIsOpen] =useState(false)
+    var comeBack = new Date(2021,3,18);
     const Completionist = () => <span>You are good to go!</span>;
     const renderer = ({days,hours, minutes, seconds, completed }) => {
         return  (
@@ -19,6 +22,24 @@ function App() {
 
         )
     }
+
+    function displayMeme() {
+        if(!isOpen) {
+            return (
+                <button onClick={() => setIsOpen(true)} className={!isOpen ? "button" : "button-hidden"}>
+                        GET READY FOR MEME!
+                </button>
+                )
+
+        }  else {
+            return (
+                <div className={"meme__holder"}>
+                    <img className={"meme"} src={imgOne} alt="memendo meme"/>
+                </div>
+                )
+        }
+    }
+
   return (
       <>
           <div className={"bg__filter"}>
@@ -34,15 +55,14 @@ function App() {
           renderer={renderer}
       />
       <div className={"song"}>
-         Music from onion climate:
+      <img src={musicIcon} />   Music from onion climate:  <img src={musicIcon} />
           <br/>
-          <a href="https://www.youtube.com/watch?v=zWq65etOM-M"
+          <a href="https://youtu.be/1H-LqG14JTw"
              target="_blank" rel="noopener noreferrer"
-             className="song__link">You are a Pirate!</a>
+             className="song__link">Feel the chilleo vibeo</a>
       </div>
+            {displayMeme()}
 
-            <div className={"img__holder"}>
-            </div>
         </section>
 
     </div>
