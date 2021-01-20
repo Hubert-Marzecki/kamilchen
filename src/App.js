@@ -1,23 +1,33 @@
 import './App.css';
 import Countdown from 'react-countdown';
 import DateBox from "./DateBox";
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import imgOne from "./assets/1.jpg";
 import musicIcon from './assets/karaoke.png';
-function App() {
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
+
+function App() {
+useEffect(() => {
+    AOS.init();
+
+},[])
     const [song, setSong] = useState([]);
     const [img, setImg] = useState([])
-    const [isOpen, setIsOpen] =useState(false)
+    const [isOpen, setIsOpen] =useState(false);
+
+
     var comeBack = new Date(2021,3,18);
     const Completionist = () => <span>You are good to go!</span>;
     const renderer = ({days,hours, minutes, seconds, completed }) => {
         return  (
             <div className="count__boxes">
-                <DateBox num={days} info={"days"} />
-                <DateBox num={hours}  info={"hours"}/>
-                <DateBox num={minutes}  info={"min"}/>
-                <DateBox num={seconds}  info={"sec"} />
+                <DateBox num={days} info={"days"} deley={"0"}/>
+                <DateBox num={hours}  info={"hours"} deley={"100"}/>
+                <DateBox num={minutes}  info={"min"} deley={"200"}/>
+                <DateBox num={seconds}  info={"sec"} deley={"400"}/>
             </div>
 
         )
@@ -33,7 +43,7 @@ function App() {
 
         }  else {
             return (
-                <div className={"meme__holder"}>
+                <div className={"meme__holder"} data-aos="flip-down">
                     <img className={"meme"} src={imgOne} alt="memendo meme"/>
                 </div>
                 )

@@ -2,8 +2,8 @@
   text-align: center;
   box-sizing: border-box;
   margin: 0;
-  padding: 2em;
   border:none;
+  padding-top: 2em;
   background-image: url("assets/pirateOne.jpg");
   background-position: center;
   background-size: cover;
@@ -17,6 +17,7 @@
 .heading{
   color: white;
   font-size: 3em;
+  padding-top: 1em;
 }
 .cross__word{
   text-decoration: line-through;
@@ -60,6 +61,9 @@ width: 30%;
   border-radius: 20px;
   cursor: pointer;
   font-size: 1em;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  font-weight: 700;
 }
 .meme{
 width: 30vw;
@@ -71,5 +75,8 @@ margin-bottom: 2em;
   }
   .button{
     width: 90%;
+  }
+  .App{
+    height: 110%;
   }
 }
