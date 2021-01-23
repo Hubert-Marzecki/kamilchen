@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0d01ac-b03a-42d2-a67d-7c6f11ed0114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/linkGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/waves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/waves.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/linkGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/linkGallery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +43,8 @@
       <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src" />
       <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src\assets" />
+      <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src" />
       <recent name="C:\Users\huber\OneDrive\Pulpit\Moje\web\kamilish\src\styles" />
     </key>
   </component>
@@ -53,7 +58,10 @@
       <updated>1610916165803</updated>
       <workItem from="1610916177528" duration="5836000" />
       <workItem from="1610985097257" duration="619000" />
-      <workItem from="1611163637013" duration="2664000" />
+      <workItem from="1611163637013" duration="3222000" />
+      <workItem from="1611171358478" duration="7000" />
+      <workItem from="1611313175666" duration="2505000" />
+      <workItem from="1611432504302" duration="438000" />
     </task>
     <servers />
   </component>

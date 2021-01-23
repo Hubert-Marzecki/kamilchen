@@ -6,13 +6,15 @@ import imgOne from "./assets/1.jpg";
 import musicIcon from './assets/karaoke.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import {linkGallery} from "./assets/linkGallery";
+import imgTwo from './assets/2.jpg'
 
+import imgThree from './assets/3.jpg'
+import imgFour from './assets/3a.png'
 
 function App() {
 useEffect(() => {
     AOS.init({once: true});
-
 },[])
     const [song, setSong] = useState(["1", "2", "3", "4"]);
     const [img, setImg] = useState([])
@@ -33,8 +35,10 @@ useEffect(() => {
         )
     }
 
-    function changeSong() {
+    const memes = [imgFour]
 
+    function changeSong() {
+        return linkGallery[date]
     }
 
     function displayMeme() {
@@ -48,7 +52,11 @@ useEffect(() => {
         }  else {
             return (
                 <div className={"meme__holder"} data-aos="flip-down">
-                    <img className={"meme"} src={imgOne} alt="memendo meme"/>
+                    {memes.map((meme) => {
+                        return <img className={"meme"} src={meme} alt="memendo meme"/>
+                    } )}
+
+                    {/*<img className={"meme"} src={imgTwo} alt="memendo meme"/>*/}
                 </div>
                 )
         }
@@ -57,7 +65,6 @@ useEffect(() => {
   return (
       <>
           <div className={"bg__filter"}>
-
           </div>
     <div className="App">
 
@@ -69,11 +76,13 @@ useEffect(() => {
           renderer={renderer}
       />
       <div className={"song"}>
-      <img src={musicIcon} />   Music from onion climate:  <img src={musicIcon} />
+      {/*<img src={musicIcon} />  */}
+      Swimming is like flying:
+          {/*<img src={musicIcon} />*/}
           <br/>
-          <a href="https://youtu.be/1H-LqG14JTw"
+          <a href="https://www.youtube.com/watch?v=aflmCuUfq-I"
              target="_blank" rel="noopener noreferrer"
-             className="song__link">Feel the chilleo vibeo</a>
+             className="song__link">Entering chill zone </a>
       </div>
             {displayMeme()}
 

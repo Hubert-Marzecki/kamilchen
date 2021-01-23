@@ -4,7 +4,7 @@
   margin: 0;
   border:none;
   padding-top: 2em;
-  background-image: url("assets/pirateOne.jpg");
+  background-image: url("./assets/waves.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,7 +17,6 @@
 .heading{
   color: white;
   font-size: 3em;
-  padding-top: 1em;
 }
 .cross__word{
   text-decoration: line-through;
@@ -50,6 +49,7 @@
   margin-top: 1em;
   display: flex;
  justify-content: center;
+  flex-wrap: wrap;
 }
 .button{
 width: 30%;
@@ -66,15 +66,18 @@ width: 30%;
   font-weight: 700;
 }
 .meme{
-width: 30vw;
+width: 20vw;
 margin-bottom: 2em;
+  margin-right: 5px;
+  margin-left: 5px;
+
 }
 @media only screen and (max-width: 1000px) {
   .meme{
     width: 80vw;
   }
   .button{
-    width: 90%;
+    width: 80%;
   }
   .App{
     height: 110%;
