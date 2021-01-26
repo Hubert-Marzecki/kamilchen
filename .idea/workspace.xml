@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa0d01ac-b03a-42d2-a67d-7c6f11ed0114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/waves.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/3a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/waves.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/linkGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/linkGallery.js" afterDir="false" />
-    </list>
+    <list default="true" id="aa0d01ac-b03a-42d2-a67d-7c6f11ed0114" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Web/elo-klapero" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,7 +50,7 @@
       <workItem from="1611163637013" duration="3222000" />
       <workItem from="1611171358478" duration="7000" />
       <workItem from="1611313175666" duration="2505000" />
-      <workItem from="1611432504302" duration="438000" />
+      <workItem from="1611432504302" duration="486000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,8 @@ import imgTwo from './assets/2.jpg'
 
 import imgThree from './assets/3.jpg'
 import imgFour from './assets/3a.png'
+import imgFive from './assets/5.png'
+
 
 function App() {
 useEffect(() => {
@@ -45,7 +47,7 @@ useEffect(() => {
         if(!isOpen) {
             return (
                 <button onClick={() => setIsOpen(true)} className={!isOpen ? "button" : "button-hidden"}>
-                        GET READY FOR MEME!
+                        TRUE STORY
                 </button>
                 )
 
@@ -77,12 +79,12 @@ useEffect(() => {
       />
       <div className={"song"}>
       {/*<img src={musicIcon} />  */}
-      Swimming is like flying:
+      Sky will fall upon infidels
           {/*<img src={musicIcon} />*/}
           <br/>
-          <a href="https://www.youtube.com/watch?v=aflmCuUfq-I"
+          <a href="https://www.youtube.com/watch?v=DeumyOzKqgI"
              target="_blank" rel="noopener noreferrer"
-             className="song__link">Entering chill zone </a>
+             className="song__link">Ready?</a>
       </div>
             {displayMeme()}
 
